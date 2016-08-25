@@ -2,17 +2,32 @@
 
 ## Prehype Introduction
 
-Prehype is a venture development firm. We do 3 things:
+Since we were founded, [Prehype](https://prehype.com) has been a venture development firm. We've mainly done 3 things:
 
 * We incubate homegrown startups created by Prehype partners and EIRs
 * We build new startups in conjunction with the world’s leading corporations
 * We invest in startups and deals that our network can add value to
 
-Prior to the Internet, computers were were silos. Installing software on a computer meant inserting a disk and downloading the software to the hard drive of that computer. The Internet and network age has allowed software to permeate networks, live in the cloud, and allows individual computers to leverage the intelligence of a network.
+## Prehype API
 
-Prehype’s has built an API to model the way we build businesses, and allow anyone to apply the collective intelligence of the Prehype network to build businesses in a better way.
+Prior to the networked age of the Internet, computers were mainly silos. Installing software on a computer meant inserting a floppy disk and downloading software to only that computer's hard disk.
+
+Businesses today are similarly built in relative isolation. In a perfect world, the building blocks of business would share a common language and be available on demand.
+
+Rather than start from scratch on your own, you would be able to call on resources you needed to launch enterprises and increase your chance of success.
+
+Entrepreneurs would be able to...
+Companies would be able to...
+
+Prehype is a platform for building businesses. It connects people and companies to the resources they need to build great new businesses. Those resources have been built and maintained by Prehype, and leverage the historical knowledge, resources, and people of the Prehype network.
 
 ## Workshop.ph
+
+Workshop.ph is an API for accessing the Prehype process of idea generation and opportunity identification.
+
+The process consists of preparatory research into a problem domain, followed by an intensive one week workshop that brings together domain experts, stakeholders, and Prehype network members to examine the problem domain and arrive at new business opportunities.
+
+The output of Workshop.ph is one or several LPPs
 
 ## Other Prehype APIs
 
@@ -27,7 +42,11 @@ Prehype’s has built an API to model the way we build businesses, and allow any
 
 ## Usage
 
+```sh
+npm install prehype
 ```
+
+```js
 import Prehype = from ‘Prehype’;
 const workshop = new Prehype.Client(apiKey: ’api key’, appId: ‘app id’);
 
