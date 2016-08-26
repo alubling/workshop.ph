@@ -2,7 +2,7 @@
 
 ## Prehype Introduction
 
-Since its founded, [Prehype](https://prehype.com) has been a venture development firm. We've mainly done 3 things:
+Since its founding, [Prehype](https://prehype.com) has been a venture development firm. We've mainly done 3 things:
 
 * We incubate homegrown startups created by Prehype partners and EIRs
 * We build new startups in conjunction with the world’s leading corporations
