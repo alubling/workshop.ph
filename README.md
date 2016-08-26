@@ -2,7 +2,7 @@
 
 ## Prehype Introduction
 
-Since we were founded, [Prehype](https://prehype.com) has been a venture development firm. We've mainly done 3 things:
+Since its founded, [Prehype](https://prehype.com) has been a venture development firm. We've mainly done 3 things:
 
 * We incubate homegrown startups created by Prehype partners and EIRs
 * We build new startups in conjunction with the world’s leading corporations
@@ -94,7 +94,7 @@ workshop.execute(
 
 ```
 
-Preparation
+**Preparation**
 
 This is what is involved in preparation.
 
@@ -102,7 +102,7 @@ This is what is involved in preparation.
 preparation();
 ```
 
-Workshop week
+**Workshop week**
 
 The workshop week will have a photo here.
 
@@ -110,7 +110,7 @@ The workshop week will have a photo here.
 workshopWeek();
 ```
 
-Output
+**Output**
 
 The output is something called an LPP, here's an example
 
@@ -118,7 +118,7 @@ The output is something called an LPP, here's an example
 output();
 ```
 
-What happens next?
+**What happens next?**
 
 The follow up involves us doing signalMining.ph
 
