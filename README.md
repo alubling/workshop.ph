@@ -38,26 +38,53 @@ The output of Workshop.ph is one or several LPPs
 
 ## Getting Started
 
-## Getting Help
-
-## Usage
+To get started, install the Prehype npm package.
 
 ```sh
-npm install prehype
+npm install prehype --save
 ```
+
+Create a new client by identifying and authenticating yourself to the network.
 
 ```js
 import Prehype = from ‘Prehype’;
 const workshop = new Prehype.Client(apiKey: ’api key’, appId: ‘app id’);
 
-workshop.prehypeNetworkInputs({
+```
+
+## Usage
+
+Once you've identified yourself to the Prehype network, you can kick off a workshop by making the following requests:
+
+### Your Inputs
+
+Three types of input are required from you to kickoff a workshop:
+
+```js
+
+const inputs = {
+  "brief": "YOUR PROBLEM BRIEF" // a paragraph description of the problem space to be investigated and the central thesis of why this space should be investigated
+  "people": people("problemBrief") // returns a group of internal Prehypers necessary to conduct a workshop in this problem domain,
+
+}
+```
+
+### Prehype Inputs
+
+
+```js
+workshop.prehypeNetworkInputs(inputs,
  // something or other
-});
+);
 
 workshop.clientInputs({
  // something or other
 });
+```
 
+### Execution
+
+```js
 workshop.execute(
 
 	{Structure of Workshop}
@@ -83,7 +110,11 @@ workshop.execute(
 
 ## Examples
 
-## Opening Issues
+## Ownership and Maintenance
+
+Workshop.ph is maintained by Prehype partner [Amit Lubling](https://linked.com/amitlubling). Reached at `amit at prehype dot com`.
+
+## Getting Help and Opening Issues
 
 ## Contributing
 
