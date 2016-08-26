@@ -63,33 +63,67 @@ Three types of input are required from you to kickoff a workshop:
 ```js
 
 const inputs = {
-  "brief": "YOUR PROBLEM BRIEF" // a paragraph description of the problem space to be investigated and the central thesis of why this space should be investigated
-  "people": people("problemBrief") // returns a group of internal Prehypers necessary to conduct a workshop in this problem domain,
+  "brief": "YOUR PROBLEM BRIEF", // a several paragraph description of the problem space to be investigated and the central thesis of why this space should be investigated
+  "people": people.ph("brief"), // returns a group of internal Prehypers necessary to conduct a workshop in this problem domain
 
 }
-```
 
-### Prehype Inputs
-
-
-```js
-workshop.prehypeNetworkInputs(inputs,
- // something or other
-);
-
-workshop.clientInputs({
- // something or other
-});
+// initiate a request with your inputs
+workshop.yourInputs(inputs);
 ```
 
 ### Execution
 
+Once a request is submitted, and parties agree to the terms of accessing the Prehype workshop.ph API, Prehype executes a workshop:
+
 ```js
+
 workshop.execute(
 
 	{Structure of Workshop}
 
+  preparation();
+
+  workshopWeek();
+
+  output();
+
+  next();
+
 );
+
+```
+
+Preparation
+
+This is what is involved in preparation.
+
+```js
+preparation();
+```
+
+Workshop week
+
+The workshop week will have a photo here.
+
+```js
+workshopWeek();
+```
+
+Output
+
+The output is something called an LPP, here's an example
+
+```js
+output();
+```
+
+What happens next?
+
+The follow up involves us doing signalMining.ph
+
+```js
+next();
 ```
 
 * Context
@@ -110,9 +144,11 @@ workshop.execute(
 
 ## Examples
 
-## Ownership and Maintenance
+## Maintenance
 
 Workshop.ph is maintained by Prehype partner [Amit Lubling](https://linked.com/amitlubling). Reached at `amit at prehype dot com`.
+
+The compensation structure for maintaining the Workshop.ph API is...
 
 ## Getting Help and Opening Issues
 
