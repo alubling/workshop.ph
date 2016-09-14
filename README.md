@@ -37,6 +37,11 @@ The output of Workshop.ph is one or several LPPs or Lean Product Plans.
 
 The Lean Product Plan is the output of calling workshop.ph. A Lean Product Plan is a presentation that contains the right information to make a decision if you should move forward with the opportunity.
 
+A Lean Product Plan combines the rational and emotional elements of making a business case.
+
+![alt tag](https://github.com/alubling/workshop.ph/blob/master/LPP1.png)
+
+
 Lean Product Plans vary, but they usually include:
 
   * Background and context on the problem
