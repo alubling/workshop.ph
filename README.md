@@ -45,9 +45,9 @@ Lean Product Plans vary, but they usually include:
   * A walkthrough of a user flow, or how the user interacts with the product or service
   * A business case including market analysis, business model, financials, and any other useful information.
   * A plan for the development of an MVP
-  * A proposal for how to call [SignalMining](#).ph to conduct a signal mining process to validate the plan
+  * A proposal for how to call [SignalMining.ph](#) to conduct a signal mining process to validate the plan
 
-  Additionally an LPP will always include:
+Additionally an LPP will always include:
 
   * Brand and identity work to create a new brand for the product or service
   * An initial design sprint worth of UX/UI work to visualize the product or service
@@ -60,7 +60,7 @@ The purpose of a Lean Product Plan is to distill the product idea into a concise
 * [Workshop.ph](#) - You’re looking at it!
 * [People.ph](#) -
 * [Syndicate.ph](#) -
-* [SignalMining](#).ph -
+* [SignalMining.ph](#) -
 
 
 ## Getting Started
