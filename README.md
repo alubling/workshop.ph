@@ -26,7 +26,7 @@ Prehype is a platform for building businesses. It connects people and companies 
 
 ## Workshop.ph
 
-Workshop.ph is an API for accessing the Prehype process of idea generation and opportunity identification.
+Workshop.ph is an API for accessing the Prehype process of **Idea Generation and Opportunity Identification**.
 
 The process consists of preparatory research into a problem domain, followed by an intensive one week workshop that brings together domain experts, stakeholders, and Prehype network members to examine the problem domain and arrive at new business opportunities.
 
@@ -42,7 +42,7 @@ A Lean Product Plan combines the rational and emotional elements of making a bus
 ![alt tag](https://github.com/alubling/workshop.ph/blob/master/LPP1.png)
 
 
-Lean Product Plans vary, but they usually include:
+Lean Product Plans vary, but they typically include:
 
   * Background and context on the problem
   * A unique insight that justifies exploring the opportunity
@@ -57,7 +57,8 @@ Additionally an LPP will always include:
   * Brand and identity work to create a new brand for the product or service
   * An initial design sprint worth of UX/UI work to visualize the product or service
 
-The purpose of a Lean Product Plan is to distill the product idea into a concise and precise business proposal. Armed with an LPP, you can now go to internal stakeholders, investors, clients, partners, or potential customers, to pitch the plan and decide whether to move onto a signal mining phase or directly into a new venture creation and MVP build.  
+
+The purpose of a Lean Product Plan is to distill the product idea into a concise and precise business proposal. Armed with an LPP, you can now go to internal stakeholders, investors, clients, partners, or potential customers and pitch the plan to decide whether to move onto a signal mining phase or directly into a new venture creation and MVP build.  
 
 
 ## Other Prehype APIs
@@ -97,7 +98,7 @@ Three types of input are required from you to kickoff a workshop:
 
 const inputs = {
 
-  // a several paragraph description of the problem space to be investigated and the central thesis of why this space should be investigated
+  // a several paragraph description of the problem space to be investigated and the central thesis of why this space should be investigated - note, this will be much more fleshed out if a Prehype member is NOT a facilitator. 
   "brief": "YOUR PROBLEM BRIEF",
 
   // returns a group of internal Prehypers necessary to conduct a workshop in this problem domain
